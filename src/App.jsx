@@ -1,3 +1,15 @@
+import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
+import { Hero } from "./components/Hero";
+import { Main } from "./components/Main";
+
 export const App = () => {
-  return <h1 className="text-center mt-3 text-xl font-bold">Matías Seltzer</h1>;
+  return (
+    <>
+      <Header />
+      <Hero />
+      <Main />
+      <Footer />
+    </>
+  );
 };
